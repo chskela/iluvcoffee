@@ -22,8 +22,9 @@ export class CoffeesService {
     return this.coffees.find((i) => i.id === Number(id));
   }
 
-  create(coffee: any) {
-    this.coffees.push(coffee);
+  create(createCoffeeDto: any) {
+    this.coffees.push(createCoffeeDto);
+    return createCoffeeDto;
   }
 
   update(id: string, coffee: UpdateCoffeeDto) {
