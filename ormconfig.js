@@ -11,11 +11,3 @@ module.exports = {
     migrationsDir: 'src/migrations',
   },
 };
-// type: 'postgres',
-// host: 'localhost',
-// port: 5432,
-// username: 'postgres',
-// password: 'pass123',
-// database: 'postgres',
-// autoLoadEntities: true,
-// synchronize: true,
